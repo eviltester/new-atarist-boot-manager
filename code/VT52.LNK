@@ -1,0 +1,28 @@
+
+from 	c.o
+
+i:\newauto\vt52.o
+i:\newauto\progs.o
+i:\newauto\global.o
+i:\newauto\display.o
+i:\newauto\filelist.o
+i:\newauto\edit.o
+i:\newauto\defaults.o
+i:\newauto\sets.o
+i:\newauto\accs.o
+i:\newauto\other.o
+i:\newauto\options.o
+i:\newauto\fileform.o
+i:\newauto\autofold.o
+i:\newauto\vtwindow.o
+i:\newauto\lists.o
+i:\newauto\bootwins.o
+i:\newauto\screen.o
+i:\newauto\fileslct.o
+
+LIBRARY lc.lib+lcm.lib+lcg.lib
+VERBOSE
+XADDSYM
+
+to i:\newauto\vt52.prg
+

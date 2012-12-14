@@ -1,0 +1,26 @@
+This doc is the documentation written over 6 months after looking
+at the program code in an attempt to see what has bee used, what
+state I am at and how to proceed.
+
+so let's start with the main program!
+
+vt52.c
+------
+
+It includes rather a lot of stuff and I'm not sure that it is all needed
+
+
+main_loop2
+	print the current window
+	handle any keypresses until escape is pressed
+
+
+main
+	this is still using the concept of 
+		prog, acc, set and other
+	when it should be getting a window list from
+	a file and if it fails to find that then it
+	should read the sets file and create default windows based upon that
+	(if that is possible)
+
+
